@@ -1,0 +1,120 @@
+#!/bin/csh
+
+java lattice sim.param 0000 
+java lattice sim.param 0001 
+java lattice sim.param 0002 
+java lattice sim.param 0003 
+java lattice sim.param 0004 
+java lattice sim.param 0005 
+java lattice sim.param 0006 
+java lattice sim.param 0007 
+java lattice sim.param 0008 
+java lattice sim.param 0009 
+			    
+java lattice sim.param 0010  
+java lattice sim.param 0011 
+java lattice sim.param 0012 
+java lattice sim.param 0013 
+java lattice sim.param 0014 
+java lattice sim.param 0015 
+java lattice sim.param 0016 
+java lattice sim.param 0017 
+java lattice sim.param 0018 
+java lattice sim.param 0019 
+			    
+			    
+java lattice sim.param 0020 
+java lattice sim.param 0021 
+java lattice sim.param 0022 
+java lattice sim.param 0023 
+java lattice sim.param 0024 
+java lattice sim.param 0025 
+java lattice sim.param 0026 
+java lattice sim.param 0027 
+java lattice sim.param 0028 
+java lattice sim.param 0029 
+			    
+			    
+java lattice sim.param 0030 
+java lattice sim.param 0031 
+java lattice sim.param 0032 
+java lattice sim.param 0033 
+java lattice sim.param 0034 
+java lattice sim.param 0035 
+java lattice sim.param 0036 
+java lattice sim.param 0037 
+java lattice sim.param 0038 
+java lattice sim.param 0039 
+			    
+			    
+java lattice sim.param 0040 
+java lattice sim.param 0041 
+java lattice sim.param 0042 
+java lattice sim.param 0043 
+java lattice sim.param 0044 
+java lattice sim.param 0045 
+java lattice sim.param 0046 
+java lattice sim.param 0047 
+java lattice sim.param 0048 
+java lattice sim.param 0049 
+			    
+			    
+java lattice sim.param 0050 
+java lattice sim.param 0051 
+java lattice sim.param 0052 
+java lattice sim.param 0053 
+java lattice sim.param 0054 
+java lattice sim.param 0055 
+java lattice sim.param 0056 
+java lattice sim.param 0057 
+java lattice sim.param 0058 
+java lattice sim.param 0059 
+			    
+			    
+java lattice sim.param 0060 
+java lattice sim.param 0061 
+java lattice sim.param 0062 
+java lattice sim.param 0063 
+java lattice sim.param 0064 
+java lattice sim.param 0065 
+java lattice sim.param 0066 
+java lattice sim.param 0067 
+java lattice sim.param 0068 
+java lattice sim.param 0069 
+			    
+			    
+java lattice sim.param 0070 
+java lattice sim.param 0071 
+java lattice sim.param 0072 
+java lattice sim.param 0073 
+java lattice sim.param 0074 
+java lattice sim.param 0075 
+java lattice sim.param 0076 
+java lattice sim.param 0077 
+java lattice sim.param 0078 
+java lattice sim.param 0079 
+			    
+			    
+java lattice sim.param 0080 
+java lattice sim.param 0081 
+java lattice sim.param 0082 
+java lattice sim.param 0083 
+java lattice sim.param 0084 
+java lattice sim.param 0085 
+java lattice sim.param 0086 
+java lattice sim.param 0087 
+java lattice sim.param 0088 
+java lattice sim.param 0089 
+			    
+			    
+java lattice sim.param 0090 
+java lattice sim.param 0091 
+java lattice sim.param 0092 
+java lattice sim.param 0093 
+java lattice sim.param 0094 
+java lattice sim.param 0095 
+java lattice sim.param 0096 
+java lattice sim.param 0097 
+java lattice sim.param 0098 
+java lattice sim.param 0099 
+

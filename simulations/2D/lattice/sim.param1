@@ -1,0 +1,48 @@
+// The grid being simulated is limited to a square   //
+// The Width and Height of the grid is entered below //
+
+SIZE           1000
+
+// Number of each molecule in the grid              //
+
+ENZYME         1000
+SUBSTRATE      1000
+PRODUCT        0
+INTERMEDIATE   0 
+BOUNDARY       200000
+
+//   r_stat [0,1] Probability C -> E + S            //
+//   g_stat [0,1] Probability C -> E + P            //
+//   f_stat [0,1] Probability E + S -> C            //
+
+R_STAT         0.001
+G_STAT         0.0
+F_STAT         1
+
+// Time Steps to be simulate                        //
+
+TIME           10000
+
+// To create an mpeg video of the simulation set    //
+// SIM_MPEG to true                                 //
+
+SIM_MPEG       FALSE
+MPEG_DIR       "./images2"
+
+// Designate the comma separated value file that    //
+// contains the following                           //
+// time,#e,#s,#i,#p,#collisions,#dissassociations,  //
+// #associations                                    //
+
+OUT_FILE       "/data/bida/kinetics/sim20_"
+
+// Designate a file to contain the list of molecules//
+// and their current position on the grid.          //
+
+MOL_PATH       FALSE
+OUT_MOLS       path.csv
+
+
+
+
+

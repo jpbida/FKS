@@ -1,0 +1,31 @@
+### The files in this directory are samples of the position of the crowding molecules in the various simulations that were run ###
+
+2D Simulations OFF Lattice
+###############################################
+Uniform Radius = 1 250x250 space
+	border16000
+	border32000
+	border48000
+Random Radius 5-20 1000x1000 Space
+	border1500
+	border3000
+	border4500
+
+3D SIMULATIONS 100x100x100 space
+###############################################
+Crowding molecules of radius 1
+	r1_25
+	r1_50
+	r1_75
+Crowding molecules of radius 2
+	r2_25
+	r2_50
+	r2_75
+Crowding molecules of radius 3
+	r3_25
+	r3_50
+	r3_75
+Crowding molecules of radius 4
+	r4_25
+	r4_50
+	r4_75

@@ -1,0 +1,33 @@
+sim1
+##########################
+500x500x500 3D simulation
+r_stat = 0.0001
+f_stat = 0.0001
+
+sim2
+##########################
+250x250x250 3D simulation
+f_stat = 1.0000
+r_stat = 0.0001
+time   = 20000
+A0     = 125
+B0     = 125
+radiusA= 1
+radiusB= 1
+Bnd0   = 70% (randomly positioned, random radius between 10 and 50)
+BndType= 0 
+
+(
+Types include:
+-T 0,1,2
+0=Divide the space into unit cubes with sides equal to the diameter of the sphere. RRandomly choose a unit to place a sphere in. Allow spheres to move. 
+1=Pick a random point and place the sphere there. No spheres overlap. Allow spheres to move. This could hang if it is impossible to place the number of spheres you want.
+2=Pick random points for spheres. Don't worry about overlap. Boundaries do not move.
+
+
+ )
+sim3 
+###########################
+
+
+sim4

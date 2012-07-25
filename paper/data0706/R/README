@@ -1,0 +1,56 @@
+2D_LATTICE 
+	R1_1
+`		R_PROB = 0.001
+		F_PROB = 1
+		1000x1000 Lattice simulation
+		A0 = 1000
+		B0 = 1000
+		BOUNDARY 0%, 20%, 40%, 60%
+	R1_10 	
+		R_PROB = 0.001
+		F_PROB = 0.001 
+		1000x1000 Lattice simulation
+		A0 = 1000
+		B0 = 100
+		BOUNDARY 0%, 20%, 40%, 60%
+2D_OFF_LATTICE
+	R1_1_B1
+`		R_PROB = 0.001
+		F_PROB = 1
+		Boundary Elements
+			Movement - Stationary 
+			Radius - Random between 5 - 20
+			Concentration 0,1500,3000,4500
+		1000x1000 Space
+		A0 = 1000
+		B0 = 1000 
+	R1_10_B1
+`		R_PROB = 0.001
+		F_PROB = 1
+		Boundary Elements
+			Movement - Stationary 
+			Radius - Random between 5 - 20
+			Concentration 0,1500,3000,4500
+		A0 = 1000 
+		B0 = 1000
+		1000x1000 Space
+	R1_1_B2
+`		R_PROB = 0.001
+		F_PROB = 1
+		Boundary Elements
+			Movement - Stationary 
+			Radius - 1
+			Concentration 0,16000,32000,48000
+		500x500 Space
+		A0 = 250
+		B0 = 250 
+	R1_10_B2
+`		R_PROB = 0.001
+		F_PROB = 1
+		Boundary Elements
+			Movement - Stationary 
+			Radius - 1
+			Concentration 0,16000,32000,48000
+		A0 = 250
+		B0 = 25
+		500x500 Space

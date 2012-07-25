@@ -1,0 +1,19 @@
+Simulation Parameters:
+
+r_stat = 0.0001
+f_stat = 1
+SIZE = 250x250x205
+A0=125 r=1
+B0=125 r=1
+C0=0   
+t = 20000
+
+
+dat1: B0=625 r=11
+dat2: B0=500 r=11
+dat3: B0=375 r=11
+dat4: B0=250 r=11
+dat5: B0=125 r=11
+dat6: B0=0 r=11
+
+

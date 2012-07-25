@@ -1,0 +1,72 @@
+set pm3d explicit
+set palette rgb 9,9,2
+set xrange [0:10]
+set yrange [0:10]
+set zrange [0:10]
+unset colorbox
+set nokey
+set nohidden3d
+set surface
+set parametric
+set size square
+set samples 36
+set isosamples 15,15
+set ticslevel 0
+set view 70,170,1.1,1
+set urange [0:pi]
+set vrange [0:2* pi]
+set term png
+set out "sim0.png"
+set multiplot
+splot 1*sin(u)*cos(v) + 8,1*sin(u)*sin(v) + 8.5,1*cos(u)+7.5 lt 3
+splot 4*sin(u)*cos(v) + 8,4*sin(u)*sin(v) + 4,4*cos(u)+4 lt 5
+unset multiplot
+set out "sim1.png"
+set multiplot
+splot 1*sin(u)*cos(v) + 7.34579,1*sin(u)*sin(v) + 8.63069,1*cos(u)+7.63069 lt 3
+splot 4*sin(u)*cos(v) + 8,4*sin(u)*sin(v) + 4,4*cos(u)+4 lt 5
+unset multiplot
+set out "sim2.png"
+set multiplot
+splot 1*sin(u)*cos(v) + 7.34579,1*sin(u)*sin(v) + 8.63069,1*cos(u)+7.63069 lt 3
+splot 4*sin(u)*cos(v) + 8,4*sin(u)*sin(v) + 4,4*cos(u)+4 lt 5
+unset multiplot
+set out "sim3.png"
+set multiplot
+splot 1*sin(u)*cos(v) + 7.33072,1*sin(u)*sin(v) + 7.96806,1*cos(u)+6.96806 lt 3
+splot 4*sin(u)*cos(v) + 8,4*sin(u)*sin(v) + 4,4*cos(u)+4 lt 5
+unset multiplot
+set out "sim4.png"
+set multiplot
+splot 1*sin(u)*cos(v) + 7.88252,1*sin(u)*sin(v) + 8.95459,1*cos(u)+7.95459 lt 3
+splot 4*sin(u)*cos(v) + 8,4*sin(u)*sin(v) + 4,4*cos(u)+4 lt 5
+unset multiplot
+set out "sim5.png"
+set multiplot
+splot 1*sin(u)*cos(v) + 7.88252,1*sin(u)*sin(v) + 8.95459,1*cos(u)+7.95459 lt 3
+splot 4*sin(u)*cos(v) + 8,4*sin(u)*sin(v) + 4,4*cos(u)+4 lt 5
+unset multiplot
+set out "sim6.png"
+set multiplot
+splot 1*sin(u)*cos(v) + 7.88315,1*sin(u)*sin(v) + 8.95463,1*cos(u)+7.95463 lt 3
+splot 4*sin(u)*cos(v) + 8,4*sin(u)*sin(v) + 4,4*cos(u)+4 lt 5
+unset multiplot
+set out "sim7.png"
+set multiplot
+splot 1*sin(u)*cos(v) + 7.88315,1*sin(u)*sin(v) + 8.95463,1*cos(u)+7.95463 lt 3
+splot 4*sin(u)*cos(v) + 8,4*sin(u)*sin(v) + 4,4*cos(u)+4 lt 5
+unset multiplot
+set out "sim8.png"
+set multiplot
+splot 1*sin(u)*cos(v) + 7.88315,1*sin(u)*sin(v) + 8.95463,1*cos(u)+7.95463 lt 3
+splot 4*sin(u)*cos(v) + 8,4*sin(u)*sin(v) + 4,4*cos(u)+4 lt 5
+unset multiplot
+set out "sim9.png"
+set multiplot
+splot 1*sin(u)*cos(v) + 7.36015,1*sin(u)*sin(v) + 8.72969,1*cos(u)+7.72969 lt 3
+splot 4*sin(u)*cos(v) + 8,4*sin(u)*sin(v) + 4,4*cos(u)+4 lt 5
+unset multiplot
+set out "sim10.png"
+set multiplot
+splot 1*sin(u)*cos(v) + 7.92395,1*sin(u)*sin(v) + 8.954,1*cos(u)+7.954 lt 3
+splot 4*sin(u)*cos(v) + 8,4*sin(u)*sin(v) + 4,4*cos(u)+4 lt 5

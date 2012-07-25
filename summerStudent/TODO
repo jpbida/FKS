@@ -1,0 +1,27 @@
+Summer Student Projects
+#################################################
+
+## Boundary Metrics ###
+
+Given an outputed Debug.csv file as input write a program that calculates the following metrics
+
+1) Percent Crowding by the boundary elements
+2) Accessible volume of the Enzyme/Substrate
+3) Average Accessible volume of the Enzyme/Substrate
+4) Average Rate of Diffusion for each of the Molecules in the simulation
+5) Fractal dimension of accessible volume
+
+## Initialization of the Space ###
+Programs Need to be written to generates spaces that have different values for each of the metrics above
+
+Space 1:
+Random placement of spheres on maximum packing lattice
+
+Space 2: 
+Random placement of spheres of differnt radius on maximum packing lattice
+up to 10 different sized spheres
+
+Space 3: 
+Create a 2D surface in 3D space with fixed substrate on it 
+
+

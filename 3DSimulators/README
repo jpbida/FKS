@@ -1,0 +1,34 @@
+Three different versions of the program were made. All of them have the same arguments and output. The only difference is how the array of molecules is stored. 
+
+fks1.1 - Stores molecules as a vector of pointers to molecule objects
+fks1.2 - Stores molecules as a deque of pointers to molecule objects
+fks1.3 - I am pretty sure this is the only one that works correctly. The others have problems near the boundaries of the simulations.
+
+fks1.1 and 1.2 seem to be able to simulate 800k molecules but their speed is unreasonable.
+
+PROGRAM CALL:
+./fks -o temp -t 2 -f 1.0 -r 0.02 -s 10 -S 1 -E 3 -C 0 -B 0
+
+
+The arguments for all simulators are as follows:
+
+
+-o Output file name 
+-t Time steps to simulate
+-s Size of space to simulate (s x s x s). The space is a cube or square
+-f Probability E binds S if they collide
+-r Probability C dissassociates into A and B when it moves
+-E Number of E molecules
+-S Number of S molecules
+-B Number of boundary elements
+-C Number of C molecules
+
+OUTPUT FILE
+This is a .csv file that contains the following information
+
+time,S,E,C
+
+where S,E,C are the number of molecules of each type at the given time.
+
+
+

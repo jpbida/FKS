@@ -1,0 +1,15 @@
+########## Functions for pixelizing spheres  ##############
+Datasets
+###############
+sphere.dat - robjects contianing different pixelized spheres
+sphere_centers.dat - dataset contians the coordinates of sphere centers
+
+Functions
+################
+pixelize -- Pixelizes a space by translating the 
+sphere2pix -- creates a sphere centered at 0 with a radius 
+arb_pixelize -- Takes in coordindates and radii of spheres and produces a pixelized version of the space
+
+
+
+

@@ -1,0 +1,23 @@
+##### Fractal Dimension ##########################################
+
+Files
+
+rpgms - functions.r 
+	fdim(file_in,dataset,res,size_space)
+	### Calculates the fractal dimension in 2D/3D of a square or cubic space ####
+	file_in - file containing the high resolution pixelized file
+	size_space - This is the size of the space
+	dataset - the name of output file plus an prefix
+	res - highest resolution pixels
+
+Notes:
+The resolution and the size of the space should be related by: 
+	2^10 * res = size_space
+If the size of your space is 1000 each pixel should be 0.97x0.97x0.97. Your pixelized dataset should contain three columns with the x,y,z indices of each pixel. The format of the files should be space separated 3 columns, with no header.
+
+0 0 0 would correspond to the pixel 0.97,0.97,0.97 and so on.
+
+The function also removes any pixels that are outside of the space you input.
+
+
+

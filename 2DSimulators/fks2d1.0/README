@@ -1,0 +1,1 @@
+This version of FKS uses the vector class to store a list of pointers to molecule classes. In the previous version we simply used an array of molecules. This limited the number of molecules we could use.

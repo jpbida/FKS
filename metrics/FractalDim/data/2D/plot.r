@@ -1,0 +1,6 @@
+postscript(file="fractal_dim.ps",paper="letter")
+load("F1output_allborder4500.px")
+t<-glm(log(frac_data$lines[2:5])~log(1/frac_data$r[2:5]))
+plot(log(1/frac_data$r),log(frac_data$lines),ylab="log(N)",xlab="log(1/r)")
+points(log(1/frac_data$r[2:5]),t$fitted.values,typ="l",col=3)
+dev.off()
